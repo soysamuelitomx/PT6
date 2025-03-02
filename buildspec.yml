@@ -1,0 +1,22 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Installing dependencies"
+      - cd frontend        # Nos movemos al directorio correcto
+      - npm install        # Instalamos las dependencias
+
+  build:
+    commands:
+      - echo "Building the React app"
+      - npm run build      # Construimos el proyecto
+
+  post_build:
+    commands:
+      - echo "Build completed successfully"
+
+artifacts:
+  files:
+    - '**/*'               # Esto asegura que todo lo necesario esté en el output
+  base-directory: frontend/build # Usamos el directorio donde React genera la build
