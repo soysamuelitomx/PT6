@@ -1,0 +1,21 @@
+{
+  "name": "reactproject",
+  "version": "1.0.0",
+  "description": "ESTE ES UN CONTENIDO AGREGADO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soysamuelitomx/PT6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/soysamuelitomx/PT6/issues"
+  },
+  "homepage": "https://github.com/soysamuelitomx/PT6#readme"
+}
