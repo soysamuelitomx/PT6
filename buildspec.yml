@@ -4,13 +4,14 @@ phases:
   install:
     commands:
       - echo "Installing dependencies"
-      - cd frontend        # Nos movemos al directorio correcto
-      - npm install        # Instalamos las dependencias
+      - cd frontend   # Nos movemos al directorio frontend
+      - ls            # Para verificar que estamos en el directorio correcto y que package.json está allí
+      - npm install   # Instalamos las dependencias
 
   build:
     commands:
       - echo "Building the React app"
-      - npm run build      # Construimos el proyecto
+      - npm run build  # Construimos el proyecto
 
   post_build:
     commands:
